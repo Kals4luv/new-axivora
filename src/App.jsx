@@ -22,20 +22,22 @@ function App() {
         </nav>
       </header>
       <main className="flex flex-col items-center justify-center flex-1 px-4 py-16">
-        <section id="home" className="relative text-center mb-20 flex flex-col items-center justify-center min-h-[60vh] w-full overflow-hidden">
-          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80')] bg-cover bg-center opacity-30 z-0"></div>
-          <div className="relative z-10 w-full flex flex-col items-center">
-            <h1 className="text-5xl md:text-7xl font-extrabold mb-6 bg-gradient-to-r from-accent via-primary to-accent-dark bg-clip-text text-transparent drop-shadow-lg">
-              Welcome to AXIVORA EDGE TECH
+        <section id="home" className="relative mb-20 flex flex-col md:flex-row items-center justify-between min-h-[60vh] w-full overflow-hidden bg-gradient-to-r from-background via-surface to-gray-700 rounded-3xl shadow-2xl p-8 md:p-16">
+          <div className="flex-1 flex flex-col items-start z-10">
+            <h1 className="text-5xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-accent via-primary to-accent-dark bg-clip-text text-transparent drop-shadow-lg">
+              Welcome to <span className="text-accent">AXIVORA EDGE TECH</span>
             </h1>
-            <p className="text-xl md:text-2xl max-w-2xl mx-auto text-accent mb-8">
+            <p className="text-xl md:text-2xl max-w-xl text-accent mb-8">
               Elevating businesses with cutting-edge technology solutions. Experience innovation, reliability, and excellence tailored for your success.
             </p>
             <a href="#contact" className="inline-block px-8 py-3 rounded-full bg-accent hover:bg-accent-dark text-white font-semibold shadow-lg transition">Get Started</a>
           </div>
+          <div className="flex-1 flex justify-center items-center mt-10 md:mt-0">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80" alt="Business Technology" className="rounded-2xl shadow-xl w-full max-w-md border-4 border-accent/40" />
+          </div>
         </section>
         <section className="w-full flex justify-center mb-12">
-          <div className="bg-accent text-white px-8 py-4 rounded-xl shadow-lg text-lg font-semibold flex items-center gap-4">
+          <div className="bg-gradient-to-r from-accent to-primary text-white px-8 py-4 rounded-xl shadow-lg text-lg font-semibold flex items-center gap-4">
             <span>🚀 Ready to transform your business?</span>
             <a href="#services" className="underline hover:text-accent-light transition">Explore Our Services</a>
           </div>
@@ -46,23 +48,23 @@ function App() {
             AXIVORA EDGE TECH is a forward-thinking technology partner dedicated to empowering businesses through digital transformation. Our team combines expertise, creativity, and a passion for innovation to deliver solutions that drive growth and efficiency.
           </p>
         </section>
-        <section id="services" className="max-w-5xl mb-20">
-          <h2 className="text-3xl font-bold mb-4 text-accent">Our Services</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-            <div className="bg-surface rounded-xl p-6 shadow-lg hover:scale-105 transition border-2 border-accent flex flex-col items-center">
-              <div className="text-4xl mb-3">💻</div>
+        <section id="services" className="max-w-6xl mb-20 mx-auto">
+          <h2 className="text-3xl font-bold mb-8 text-center text-accent">Our Services</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-8">
+            <div className="bg-surface rounded-2xl p-8 shadow-xl hover:scale-105 transition border-2 border-accent flex flex-col items-center">
+              <div className="text-5xl mb-4">💻</div>
               <h3 className="text-xl font-semibold mb-2 text-accent">Custom Software Development</h3>
-              <p className="text-accent-light">Tailored solutions to meet your unique business needs, from web apps to enterprise systems.</p>
+              <p className="text-accent-light text-center">Tailored solutions to meet your unique business needs, from web apps to enterprise systems.</p>
             </div>
-            <div className="bg-surface rounded-xl p-6 shadow-lg hover:scale-105 transition border-2 border-accent flex flex-col items-center">
-              <div className="text-4xl mb-3">☁️</div>
+            <div className="bg-surface rounded-2xl p-8 shadow-xl hover:scale-105 transition border-2 border-accent flex flex-col items-center">
+              <div className="text-5xl mb-4">☁️</div>
               <h3 className="text-xl font-semibold mb-2 text-accent">Cloud & DevOps</h3>
-              <p className="text-accent-light">Modernize your infrastructure with scalable, secure, and automated cloud solutions.</p>
+              <p className="text-accent-light text-center">Modernize your infrastructure with scalable, secure, and automated cloud solutions.</p>
             </div>
-            <div className="bg-surface rounded-xl p-6 shadow-lg hover:scale-105 transition border-2 border-accent flex flex-col items-center">
-              <div className="text-4xl mb-3">📊</div>
+            <div className="bg-surface rounded-2xl p-8 shadow-xl hover:scale-105 transition border-2 border-accent flex flex-col items-center">
+              <div className="text-5xl mb-4">📊</div>
               <h3 className="text-xl font-semibold mb-2 text-accent">AI & Data Analytics</h3>
-              <p className="text-accent-light">Unlock insights and drive smarter decisions with advanced analytics and AI integration.</p>
+              <p className="text-accent-light text-center">Unlock insights and drive smarter decisions with advanced analytics and AI integration.</p>
             </div>
           </div>
         </section>
