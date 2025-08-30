@@ -8,6 +8,9 @@ function App() {
           <a href="#home" className="hover:text-indigo-300 transition">Home</a>
           <a href="#about" className="hover:text-indigo-300 transition">About</a>
           <a href="#services" className="hover:text-indigo-300 transition">Services</a>
+          <a href="#portfolio" className="hover:text-indigo-300 transition">Portfolio</a>
+          <a href="#team" className="hover:text-indigo-300 transition">Team</a>
+          <a href="#careers" className="hover:text-indigo-300 transition">Careers</a>
           <a href="#contact" className="hover:text-indigo-300 transition">Contact</a>
         </nav>
       </header>
@@ -43,6 +46,53 @@ function App() {
               <p className="text-gray-400">Unlock insights and drive smarter decisions with advanced analytics and AI integration.</p>
             </div>
           </div>
+        </section>
+        <section id="portfolio" className="max-w-5xl mb-20">
+          <h2 className="text-3xl font-bold mb-4 text-indigo-300">Portfolio</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+            <div className="bg-gray-800 rounded-xl p-6 shadow-lg">
+              <h3 className="text-xl font-semibold mb-2 text-indigo-200">Project One</h3>
+              <p className="text-gray-400">A showcase of our innovative web platform for enterprise clients.</p>
+            </div>
+            <div className="bg-gray-800 rounded-xl p-6 shadow-lg">
+              <h3 className="text-xl font-semibold mb-2 text-indigo-200">Project Two</h3>
+              <p className="text-gray-400">Cloud migration and DevOps automation for a global retailer.</p>
+            </div>
+            <div className="bg-gray-800 rounded-xl p-6 shadow-lg">
+              <h3 className="text-xl font-semibold mb-2 text-indigo-200">Project Three</h3>
+              <p className="text-gray-400">AI-powered analytics dashboard for a financial services firm.</p>
+            </div>
+          </div>
+        </section>
+        <section id="team" className="max-w-5xl mb-20">
+          <h2 className="text-3xl font-bold mb-4 text-indigo-300">Our Team</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+            <div className="bg-gray-800 rounded-xl p-6 shadow-lg flex flex-col items-center">
+              <div className="w-20 h-20 bg-indigo-400 rounded-full mb-4"></div>
+              <h3 className="text-xl font-semibold mb-2 text-indigo-200">Jane Doe</h3>
+              <p className="text-gray-400">CEO & Founder</p>
+            </div>
+            <div className="bg-gray-800 rounded-xl p-6 shadow-lg flex flex-col items-center">
+              <div className="w-20 h-20 bg-indigo-400 rounded-full mb-4"></div>
+              <h3 className="text-xl font-semibold mb-2 text-indigo-200">John Smith</h3>
+              <p className="text-gray-400">CTO</p>
+            </div>
+            <div className="bg-gray-800 rounded-xl p-6 shadow-lg flex flex-col items-center">
+              <div className="w-20 h-20 bg-indigo-400 rounded-full mb-4"></div>
+              <h3 className="text-xl font-semibold mb-2 text-indigo-200">Emily Lee</h3>
+              <p className="text-gray-400">Lead Developer</p>
+            </div>
+          </div>
+        </section>
+        <section id="careers" className="max-w-3xl mb-20">
+          <h2 className="text-3xl font-bold mb-4 text-indigo-300">Careers</h2>
+          <p className="text-lg text-gray-300 mb-4">Join our team and help shape the future of technology. We are always looking for talented, passionate individuals.</p>
+          <ul className="list-disc list-inside text-gray-400">
+            <li>Frontend Developer</li>
+            <li>Cloud Engineer</li>
+            <li>AI/ML Specialist</li>
+          </ul>
+          <p className="mt-4">Send your resume to <a href="mailto:careers@axivora.com" className="text-indigo-400 underline">careers@axivora.com</a></p>
         </section>
         <section id="contact" className="max-w-2xl w-full">
           <h2 className="text-3xl font-bold mb-4 text-indigo-300">Contact Us</h2>
