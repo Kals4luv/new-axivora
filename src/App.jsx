@@ -11,6 +11,10 @@ function App() {
           <a href="#portfolio" className="hover:text-indigo-300 transition">Portfolio</a>
           <a href="#team" className="hover:text-indigo-300 transition">Team</a>
           <a href="#careers" className="hover:text-indigo-300 transition">Careers</a>
+          <a href="#blog" className="hover:text-indigo-300 transition">Blog</a>
+          <a href="#testimonials" className="hover:text-indigo-300 transition">Testimonials</a>
+          <a href="#faq" className="hover:text-indigo-300 transition">FAQ</a>
+          <a href="#privacy" className="hover:text-indigo-300 transition">Privacy Policy</a>
           <a href="#contact" className="hover:text-indigo-300 transition">Contact</a>
         </nav>
       </header>
@@ -93,6 +97,53 @@ function App() {
             <li>AI/ML Specialist</li>
           </ul>
           <p className="mt-4">Send your resume to <a href="mailto:careers@axivora.com" className="text-indigo-400 underline">careers@axivora.com</a></p>
+        </section>
+        <section id="blog" className="max-w-5xl mb-20">
+          <h2 className="text-3xl font-bold mb-4 text-indigo-300">Blog</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-800 rounded-xl p-6 shadow-lg">
+              <h3 className="text-xl font-semibold mb-2 text-indigo-200">5 Tech Trends Shaping 2025</h3>
+              <p className="text-gray-400">Stay ahead with our insights on the latest technology trends impacting businesses this year.</p>
+            </div>
+            <div className="bg-gray-800 rounded-xl p-6 shadow-lg">
+              <h3 className="text-xl font-semibold mb-2 text-indigo-200">How to Build a Resilient Cloud Infrastructure</h3>
+              <p className="text-gray-400">Best practices for ensuring uptime, security, and scalability in the cloud era.</p>
+            </div>
+          </div>
+        </section>
+        <section id="testimonials" className="max-w-5xl mb-20">
+          <h2 className="text-3xl font-bold mb-4 text-indigo-300">Testimonials</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+            <div className="bg-gray-800 rounded-xl p-6 shadow-lg">
+              <p className="text-gray-300 italic">"AXIVORA EDGE TECH transformed our business with their innovative solutions!"</p>
+              <div className="mt-4 text-indigo-200 font-semibold">— Sarah K., CEO, FinTech Co.</div>
+            </div>
+            <div className="bg-gray-800 rounded-xl p-6 shadow-lg">
+              <p className="text-gray-300 italic">"Professional, reliable, and always ahead of the curve."</p>
+              <div className="mt-4 text-indigo-200 font-semibold">— Mike L., CTO, Retail Group</div>
+            </div>
+          </div>
+        </section>
+        <section id="faq" className="max-w-3xl mb-20">
+          <h2 className="text-3xl font-bold mb-4 text-indigo-300">FAQ</h2>
+          <div className="space-y-4">
+            <div className="bg-gray-800 rounded-xl p-4">
+              <h3 className="font-semibold text-indigo-200">What industries do you serve?</h3>
+              <p className="text-gray-400">We work with clients in finance, retail, healthcare, and more.</p>
+            </div>
+            <div className="bg-gray-800 rounded-xl p-4">
+              <h3 className="font-semibold text-indigo-200">How can I request a quote?</h3>
+              <p className="text-gray-400">Use the contact form below or email us at info@axivora.com.</p>
+            </div>
+            <div className="bg-gray-800 rounded-xl p-4">
+              <h3 className="font-semibold text-indigo-200">Do you offer support after project delivery?</h3>
+              <p className="text-gray-400">Yes, we provide ongoing support and maintenance packages.</p>
+            </div>
+          </div>
+        </section>
+        <section id="privacy" className="max-w-3xl mb-20">
+          <h2 className="text-3xl font-bold mb-4 text-indigo-300">Privacy Policy</h2>
+          <p className="text-gray-300">We value your privacy. Your information is never shared with third parties. For details, please contact us at privacy@axivora.com.</p>
         </section>
         <section id="contact" className="max-w-2xl w-full">
           <h2 className="text-3xl font-bold mb-4 text-indigo-300">Contact Us</h2>
