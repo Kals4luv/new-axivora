@@ -3,7 +3,7 @@ import React from "react";
 
 function Homepage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-blue-900 text-white font-sans">
+  <div className="min-h-screen bg-gradient-to-br from-blue-100 via-blue-400 to-white text-gray-900 font-sans">
       <header className="flex justify-between items-center px-8 py-6 shadow-lg bg-opacity-80 bg-background">
         <div className="flex items-center gap-3">
           <span className="text-2xl font-bold tracking-widest text-accent">AXIVORA EDGE TECH</span>
