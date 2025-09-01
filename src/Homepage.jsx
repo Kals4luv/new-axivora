@@ -3,27 +3,27 @@ import React from "react";
 
 function Homepage() {
   return (
-  <div className="min-h-screen bg-gradient-to-br from-blue-100 via-blue-400 to-white text-gray-900 font-sans">
-      <header className="flex justify-between items-center px-8 py-6 shadow-lg bg-opacity-80 bg-background">
+  <div className="min-h-screen bg-gradient-to-br from-background via-surface to-primary text-white font-sans">
+  <header className="flex justify-between items-center px-8 py-6 shadow-lg bg-opacity-80 bg-background">
         <div className="flex items-center gap-3">
           <span className="text-2xl font-bold tracking-widest text-accent">AXIVORA EDGE TECH</span>
         </div>
         <nav className="space-x-8 text-lg">
-          <a href="#home" className="hover:text-accent transition">Home</a>
-          <a href="#about" className="hover:text-accent transition">About</a>
-          <a href="#services" className="hover:text-accent transition">Services</a>
-          <a href="#portfolio" className="hover:text-accent transition">Portfolio</a>
-          <a href="#team" className="hover:text-accent transition">Team</a>
-          <a href="#careers" className="hover:text-accent transition">Careers</a>
-          <a href="#blog" className="hover:text-accent transition">Blog</a>
-          <a href="#testimonials" className="hover:text-accent transition">Testimonials</a>
-          <a href="#faq" className="hover:text-accent transition">FAQ</a>
-          <a href="#privacy" className="hover:text-accent transition">Privacy Policy</a>
-          <a href="#contact" className="hover:text-accent transition">Contact</a>
+          <a href="#home" className="hover:text-primary transition">Home</a>
+          <a href="#about" className="hover:text-primary transition">About</a>
+          <a href="#services" className="hover:text-primary transition">Services</a>
+          <a href="#portfolio" className="hover:text-primary transition">Portfolio</a>
+          <a href="#team" className="hover:text-primary transition">Team</a>
+          <a href="#careers" className="hover:text-primary transition">Careers</a>
+          <a href="#blog" className="hover:text-primary transition">Blog</a>
+          <a href="#testimonials" className="hover:text-primary transition">Testimonials</a>
+          <a href="#faq" className="hover:text-primary transition">FAQ</a>
+          <a href="#privacy" className="hover:text-primary transition">Privacy Policy</a>
+          <a href="#contact" className="hover:text-primary transition">Contact</a>
         </nav>
       </header>
-      <main className="flex flex-col items-center justify-center flex-1 px-4 py-16">
-        <section id="home" className="relative mb-20 flex flex-col md:flex-row items-center justify-between min-h-[60vh] w-full overflow-hidden bg-gradient-to-r from-background via-surface to-gray-700 rounded-3xl shadow-2xl p-8 md:p-16">
+  <main className="flex flex-col items-center justify-center flex-1 px-4 py-16">
+  <section id="home" className="relative mb-20 flex flex-col md:flex-row items-center justify-between min-h-[60vh] w-full overflow-hidden bg-gradient-to-r from-background via-surface to-primary rounded-3xl shadow-2xl p-8 md:p-16">
           <div className="flex-1 flex flex-col items-start z-10">
             <h1 className="text-5xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-accent via-primary to-accent-dark bg-clip-text text-transparent drop-shadow-lg">
               Welcome to <span className="text-accent">AXIVORA EDGE TECH</span>
@@ -34,7 +34,7 @@ function Homepage() {
             <a href="#contact" className="inline-block px-8 py-3 rounded-full bg-accent hover:bg-accent-dark text-white font-semibold shadow-lg transition">Get Started</a>
           </div>
           <div className="flex-1 flex justify-center items-center mt-10 md:mt-0">
-            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80" alt="Business Technology" className="rounded-2xl shadow-xl w-full max-w-md border-4 border-accent/40" />
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80" alt="Business Technology" className="rounded-2xl shadow-xl w-full max-w-md border-4 border-primary/40" />
           </div>
         </section>
         <section className="w-full flex justify-center mb-12">
@@ -52,20 +52,20 @@ function Homepage() {
         <section id="services" className="max-w-6xl mb-20 mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center text-accent">Our Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-8">
-            <div className="bg-surface rounded-2xl p-8 shadow-xl hover:scale-105 transition border-2 border-accent flex flex-col items-center">
+            <div className="bg-surface rounded-2xl p-8 shadow-xl hover:scale-105 transition border-2 border-primary flex flex-col items-center">
               <div className="text-5xl mb-4">💻</div>
-              <h3 className="text-xl font-semibold mb-2 text-accent">Custom Software Development</h3>
-              <p className="text-accent-light text-center">Tailored solutions to meet your unique business needs, from web apps to enterprise systems.</p>
+              <h3 className="text-xl font-semibold mb-2 text-primary">Custom Software Development</h3>
+              <p className="text-primary-light text-center">Tailored solutions to meet your unique business needs, from web apps to enterprise systems.</p>
             </div>
-            <div className="bg-surface rounded-2xl p-8 shadow-xl hover:scale-105 transition border-2 border-accent flex flex-col items-center">
+            <div className="bg-surface rounded-2xl p-8 shadow-xl hover:scale-105 transition border-2 border-primary flex flex-col items-center">
               <div className="text-5xl mb-4">☁️</div>
-              <h3 className="text-xl font-semibold mb-2 text-accent">Cloud & DevOps</h3>
-              <p className="text-accent-light text-center">Modernize your infrastructure with scalable, secure, and automated cloud solutions.</p>
+              <h3 className="text-xl font-semibold mb-2 text-primary">Cloud & DevOps</h3>
+              <p className="text-primary-light text-center">Modernize your infrastructure with scalable, secure, and automated cloud solutions.</p>
             </div>
-            <div className="bg-surface rounded-2xl p-8 shadow-xl hover:scale-105 transition border-2 border-accent flex flex-col items-center">
+            <div className="bg-surface rounded-2xl p-8 shadow-xl hover:scale-105 transition border-2 border-primary flex flex-col items-center">
               <div className="text-5xl mb-4">📊</div>
-              <h3 className="text-xl font-semibold mb-2 text-accent">AI & Data Analytics</h3>
-              <p className="text-accent-light text-center">Unlock insights and drive smarter decisions with advanced analytics and AI integration.</p>
+              <h3 className="text-xl font-semibold mb-2 text-primary">AI & Data Analytics</h3>
+              <p className="text-primary-light text-center">Unlock insights and drive smarter decisions with advanced analytics and AI integration.</p>
             </div>
           </div>
         </section>
